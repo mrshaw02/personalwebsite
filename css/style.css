@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  text-align: center;
+font-family: 'Merriweather', serif;
+color:#40514E;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+hr{
+  border-top: dotted;
+  color: grey;
+  width: 25px;
+  margin: 100px auto;
+}
+p{
+  color:#40514E;
+  font-weight: 600;
+
+}
+
+
+.cloud-bottom {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+hi-image{
+  display:inline-block;
+  position:absolute;
+
+}
+span{
+  text-decoration: underline
+}
+.subtitle{
+  font-weight: normal;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto;
+  text-align:left;
+  line-height: 2;
+}
+h1 {
+  font-size: 5.625rem;/*100 % is 16px.. in order to get 90px we had to 90/16 */
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  line-height: 2;
+
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+
+}
+a {
+  color:#11999E;
+  margin:40px 20px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+.footer-p{
+  margin: 40px;
+  color:  #EAF6F6;
+
+}
+
+.my-skills-img{
+  float: left;
+}
+.whaticando-img{
+  float: right;
+}
+.myButton{
+  box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #66bfbf 5%, #408c99 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin:100px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #66bfbf 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin:100px auto 0 auto;
+  height:100px;
+  padding:50px;
+}
